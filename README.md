@@ -2,10 +2,10 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQL-SQLite-003B57?logo=sqlite&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-分析-150458?logo=pandas&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-复算-217346?logo=microsoftexcel&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-%E5%88%86%E6%9E%90-150458?logo=pandas&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-%E5%A4%8D%E7%AE%97-217346?logo=microsoftexcel&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![rows](https://img.shields.io/badge/数据-180%2C519%20行订单项-informational)
+![rows](https://img.shields.io/badge/%E6%95%B0%E6%8D%AE-180%2C519%20%E8%A1%8C%E8%AE%A2%E5%8D%95%E9%A1%B9-informational)
 
 > 用一份公开的供应链订单数据，回答四个业务问题：**延迟出在哪个环节、影响多大、应该先改什么**。
 > 每个结论都用 SQL、pandas、Excel 三条独立路径各算一遍，三方对不上就不写进结论。
