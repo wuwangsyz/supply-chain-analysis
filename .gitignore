@@ -1,0 +1,25 @@
+# ---- 原始数据（体积过大，不入库；下载方式见 README）----
+data/raw/
+data/*.db
+data/*_备份.xlsx
+data/工作簿*.xlsx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+venv*/
+.ipynb_checkpoints/
+
+# ---- Office / 系统临时文件 ----
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 本地环境 ----
+.env
+.vscode/
+.idea/
