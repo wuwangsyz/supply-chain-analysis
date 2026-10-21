@@ -1,6 +1,6 @@
 # 三方核对记录
 
-> 三方：SQL（MCP `sqlite-readonly`，`queries.sql`）、pandas（`scripts\03_validate.py`，只读 orders 表）、Excel（`scripts\04_excel_q1.py`，工作簿2）。
+> 三方：SQL（MCP `sqlite-readonly`，`sql/queries.sql`）、pandas（`scripts\03_validate.py`，只读 orders 表）、Excel（`scripts\04_excel_q1.py`，工作簿2）。
 > 通过标准：计数完全相等，比例差值不超过 0.01 个百分点，金额差值不超过 0.01。
 
 ---
@@ -273,7 +273,7 @@ Excel 侧结果保存在 `工作簿2.xlsx` 的 `Q4P`／`Q4P临时` 工作表，�
 
 ## 跨断点稳健性检查（Q1、Q2）
 
-> 目的：断点之后，前面已经通过的 Q1、Q2 结论还成立吗。数据同源于断点分析 8 与断点分析 1（`queries.sql`）。
+> 目的：断点之后，前面已经通过的 Q1、Q2 结论还成立吗。数据同源于断点分析 8 与断点分析 1（`sql/queries.sql`）。
 
 ### Q1 地区延迟率（7 个两段都出现的地区）
 

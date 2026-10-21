@@ -1,0 +1,9 @@
+# 核心依赖：数据体检、导入与 pandas 复算
+pandas>=2.0
+openpyxl>=3.1
+
+# 可选：重绘 docs/images 下的图表
+matplotlib>=3.8
+
+# 可选：Excel 侧复算与生成分析簿（仅 Windows + 本机 Excel）
+# pywin32>=306
